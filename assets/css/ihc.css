@@ -1,0 +1,113 @@
+:root
+{
+    --first: #FFFF;
+    --second: #08678C;
+    --third: #074973;
+    --fourth: #032859;
+    --fifth: #011126;
+    --sixth: #011C40;
+    --seventh: #000000;
+} 
+
+.bprincipal
+{
+    margin-top: 2rem;
+    padding-top: 0.1rem;
+    border-radius: 15px;
+}
+.bsecundario
+{
+    justify-content: space-around;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+.bgrupo-secundario 
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 2rem;
+}
+.bindividual
+{
+    height: 22rem;
+    width: 20rem;
+    text-align:center;
+    border: 2px solid var(--seventh);
+    border-radius: 15px;
+    box-shadow:0px 0px 10px 5px #014034;
+}
+
+.bindividual p 
+{
+    padding: 0.5rem;
+    margin-top: 0;
+    font-size: large; 
+}
+
+.titulo-img
+{
+    width: 400px;
+    height: 400px;
+}
+.alinha-titulo-img
+{
+    width: 30rem;
+    height: 25rem;
+    margin-right: 2rem;
+    margin: 0 auto;
+}
+.bprincipal-titulo
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+}
+.bprincipal-titulo
+{
+    width: 40rem;
+    text-align: justify;
+    margin: 0 auto;
+   
+}
+h2
+{
+    text-align: center;
+}
+span
+{
+    font-weight: 500;
+    color: var(--fourth);
+}
+
+.cont-box
+{
+    width: 60rem;
+    margin-left: 3rem;
+}
+
+.cont-box p 
+{
+    text-align: justify;
+}
+.video
+{
+    width: 45rem;
+    background-color: var(--second);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    height: 27rem;
+    border-radius: 1rem;
+    margin: 0 auto;
+    margin-left: 12rem;
+}
+
+#img-test
+{
+    width: 12rem;
+    height: 12rem;
+}
